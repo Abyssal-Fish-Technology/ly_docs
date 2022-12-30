@@ -1,0 +1,20 @@
+
+description = "流影：国内首个开源网络流量可视化分析平台"
+## Setting this to true will add a "noindex" to *EVERY* page on the site..
+removefromexternalsearch = false
+## Gh repo for site footer (include trailing slash)
+ghrepo = "https://github.com/Abyssal-Fish-Technology/ly_docs/"
+## GH Repo for filing a new issue
+github_repo = "https://github.com/abyssalfish-os/liuying/issues/new"
+### Edit content repo (set to automatically enter "edit" mode; this is good for "improve this page" links)
+ghdocsrepo = "https://github.com/Abyssal-Fish-Technology/ly_docs/tree/master/docs"
+## Gitter URL
+gitter = "https://gitter.im/abyssalfish-os/community"
+## Discuss Forum URL
+forum = "https://gitter.im/abyssalfish-os/community"
+## Google Tag Manager
+# gtmid = ""
+
+flex_box_interior_classes = "flex-auto w-100 w-40-l mr3 mb3 bg-white ba b--moon-gray nested-copy-line-height"
+
+#sidebar_direction = "sidebar_left"

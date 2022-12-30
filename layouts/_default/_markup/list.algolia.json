@@ -1,0 +1,13 @@
+[
+    {{- range $index, $entry := .Site.RegularPages }}
+    {{- if $index }}, {{ end }}
+    {
+        "objectID": {{ .File.TranslationBaseName }},
+    "url": {{ .Permalink | jsonify }},
+    "title": {{ .Title | jsonify }},
+    "summary": {{ .Summary | jsonify }},
+    "content": {{ .Plain | jsonify }},
+    "pubDate": {{ .PublishDate | jsonify }}
+    }
+    {{- end }}
+]

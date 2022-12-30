@@ -1,0 +1,32 @@
+<footer class="bg-primary-color-dark ph4-ns pt4 relative w-100" role="contentinfo">
+    <div class="center flex-ns flex-wrap justify-between mw9 w-90">
+      <div class="center pb3 pt4 ">
+
+         <div class="b f3  light-gray mb3 nested-links tc">
+            流影由 <a href="https://github.com/orgs/Abyssal-Fish-Technology" class="link">深海鱼（北京）科技有限公司 </a>发起开源和维护，欢迎参与<br />
+          </div>
+
+          <ul class="center f6 list ma0 mv3 pa0 tc">
+            {{- with .Site.Params.github_repo -}}<li class="dib mr3"><a href="{{ . }}" class="dim link light-gray pv2">发起 Issue</a></li>{{- end -}}
+<!--            {{- with .Site.Params.forum -}}<li class="dib mr3"><a href="{{ . }}" class="dim link light-gray pv2">Gitter</a></li>{{- end -}}-->
+            {{- with .Site.Params.gitter -}}<li class="dib"><a href="{{ . }}" class="dim link light-gray pv2">Gitter线上沟通</a></li>{{- end -}}
+          </ul>
+
+          <ul class="center f6 list ma0 mv4 pa0 tc">
+            <li class="dib mr3"><a href="https://github.com/Abyssal-Fish-Technology/ly_vis" class="dim link light-gray pv2">可视化交互分析(ly_vis)</a></li>
+            <li class="dib mr3"><a href="https://github.com/Abyssal-Fish-Technology/ly_server" class="dim link light-gray pv2">管理引擎(ly_server)</a></li>
+            <li class="dib"><a href="https://github.com/Abyssal-Fish-Technology/ly_analyser" class="dim link light-gray pv2">分析引擎(ly_analyser)</a></li>
+            <li class="dib"><a href="https://github.com/Abyssal-Fish-Technology/ly_probe" class="dim link light-gray pv2"> 流量探针(ly_probe)</a></li>
+
+          </ul>
+
+      </div>
+
+    </div>
+
+
+    <div class="bg-primary-color-dark bottom-0 left-0 right-0 dn-l fixed pb3 ph3 pt3 z-2">
+      {{- partial "nav-mobile.html" . -}}
+    </div>
+
+</footer>
